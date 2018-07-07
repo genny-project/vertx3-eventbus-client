@@ -1,39 +1,4 @@
 {
-  "_args": [
-    [
-      "vertx3-eventbus-client@3.5.2",
-      "/home/dom/projects/alyson-v3"
-    ]
-  ],
-  "_from": "vertx3-eventbus-client@3.5.2",
-  "_id": "vertx3-eventbus-client@3.5.2",
-  "_inBundle": false,
-  "_integrity": "sha1-IQadTqcaWH9Eh3Yqj3f82ewv64A=",
-  "_location": "/vertx3-eventbus-client",
-  "_phantomChildren": {
-    "debug": "2.6.9",
-    "eventsource": "0.1.6",
-    "inherits": "2.0.3",
-    "json3": "3.3.2",
-    "url-parse": "1.4.1",
-    "websocket-driver": "0.7.0"
-  },
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "vertx3-eventbus-client@3.5.2",
-    "name": "vertx3-eventbus-client",
-    "escapedName": "vertx3-eventbus-client",
-    "rawSpec": "3.5.2",
-    "saveSpec": null,
-    "fetchSpec": "3.5.2"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/vertx3-eventbus-client/-/vertx3-eventbus-client-3.5.2.tgz",
-  "_spec": "3.5.2",
-  "_where": "/home/dom/projects/alyson-v3",
   "author": {
     "name": "The Vert.x Team"
   },
@@ -41,7 +6,7 @@
     "url": "https://github.com/vert-x3/vertx-stack/issues"
   },
   "dependencies": {
-    "sockjs-client": "1.0.3"
+    "sockjs-client": "1.0.4"
   },
   "description": "Vert.x 3 Event Bus Client as NPM",
   "files": [
