@@ -5,9 +5,6 @@
   "bugs": {
     "url": "https://github.com/vert-x3/vertx-stack/issues"
   },
-  "dependencies": {
-    "sockjs-client": "1.1.5"
-  },
   "description": "Vert.x 3 Event Bus Client as NPM",
   "files": [
     "vertx-eventbus.js",
