@@ -14,13 +14,7 @@
  *   You may elect to redistribute this code under either of these licenses.
  */
 !function (factory) {
-  if (typeof require === 'function' && typeof module !== 'undefined') {
-    // CommonJS loader
-    var SockJS = require('sockjs');
-    factory(SockJS);
-
-    EventBus = factory(this.SockJS);
-  }
+    define('vertx-eventbus', ['sockjs'], factory);
 }(function (SockJS) {
 
   function makeUUID() {
