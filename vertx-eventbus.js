@@ -16,19 +16,8 @@
 !function (factory) {
   if (typeof require === 'function' && typeof module !== 'undefined') {
     // CommonJS loader
-    var SockJS = require('sockjs-client');
-    if (!SockJS) {
-      throw new Error('vertx-eventbus.js requires sockjs-client, see http://sockjs.org');
-    }
+    var SockJS = require('sockjs');
     factory(SockJS);
-  } else if (typeof define === 'function' && define.amd) {
-    // AMD loader
-    define('vertx-eventbus', ['sockjs'], factory);
-  } else {
-    // plain old include
-    if (typeof this.SockJS === 'undefined') {
-      throw new Error('vertx-eventbus.js requires sockjs-client, see http://sockjs.org');
-    }
 
     EventBus = factory(this.SockJS);
   }
